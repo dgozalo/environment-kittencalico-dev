@@ -1,0 +1,34 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQd9gb/IEDrKqAP+je5Z/YszANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ4ZGQ1NmE3Ni1lMzViLTQ3ODEtOWVhNC1hOTE4YWQyN2E0NTgw
+    HhcNMTkwNTA3MDcwODE3WhcNMjQwNTA1MDgwODE3WjAvMS0wKwYDVQQDEyQ4ZGQ1
+    NmE3Ni1lMzViLTQ3ODEtOWVhNC1hOTE4YWQyN2E0NTgwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCxv89rdB8WtLE7otiedwWSrkwczGgUs5PRE1SHEz5x
+    +KaXytZzEy+os3A7ZGrfEAIyw59bAyxwMzYaDr7+4PjW5yKBsDXY2YmYiYRcm3F5
+    nQEBvLmHli8amsNNp30buO8YGC5R54Zx2TyrGpWGexGDD7iXG02GgJy3gaCN5efg
+    +qSRupi2eMnWwj/dz5G3HkueR/0kxOd/9uAmyhLGFp/OnKLLgAGh/RJgBm87bfX5
+    BHT3QXwo8+UhUo66bpxbwUBWdtCcrs+oHc7w8QV29qEveykGVeUSb+IB0cu5CoOF
+    Tbsu4JduSc9GrE6LfnxdV/btPVeiNNzt7CCglJk8fu3pAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAI
+    s6IXSe+D6Ufp7QC7hrkfxTTNZi+rQbXLVmY+q6kf3asqdkhiK3sASZ2ObAVXS8cP
+    neW0bmsalnEmMphh94sxlk5j+ezW1o9FeOgt5shbeHEEbjUFSK57561m+1vksjus
+    r8Aq2vOBXKKTK+TLBIJqdwjiuYzNEpRZWtzhsnoCZDrZlR0uac83WuMYvUB3ItGm
+    3a8vTPlbUWSgiOjUmDly+b73yhEImaY94nlXRJVtRje7Cax7lYZlTczc1DE8HyVH
+    GL0JSyiAgBta9pZI1IaZZuZ3d0/kERXZxe2W3G+itD0Hqnxu/j/4d7Q5tbsM3w5a
+    2GF6H5JvCUnco+ue6lGc
+    -----END CERTIFICATE-----
+  clusterName: drifterglow
+  jx-install-version: 2.0.0-dev+3ca6a4549
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  secretsLocation: vault
+  server: https://35.195.210.46
+  systemVaultName: jx-vault-drifterglow
+  zone: europe-west1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
